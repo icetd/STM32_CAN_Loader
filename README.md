@@ -36,8 +36,8 @@ Proceed? (y/n): y
 ## Protocol
 CAN 2.0B standard frame
 ```
-Node ID: Bits 10-5
-Command: Bits 4-0
+Node ID: Bits 10-7
+Command: Bits 6-0
 ```
 
 ## Commands
