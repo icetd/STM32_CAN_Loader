@@ -13,12 +13,12 @@ sudo ./bootloader_uploader
 ```
 
 ## Basic Commands
-`setid`	Set CAN node ID (0x00-0x1F)
-`erase`	Erase application flash
-`write`	Upload firmware file
-`crc`	Check application CRC
-`info`	Show device information
-`exit`	Quit application
+`setid`	Set CAN node ID (0x00-0x1F) <br>
+`erase`	Erase application flash <br>
+`write`	Upload firmware file <br>
+`crc`	Check application CRC <br>
+`info`	Show device information <br>
+`exit`	Quit application <br>
 
 ## Usage Example
 ```bash
@@ -41,11 +41,11 @@ Command: Bits 4-0
 ```
 
 ## Commands
-`0x01`: Erase flash
-`0x02`: Start write
-`0x03`: Write data
-`0x04`: End write
-`0x05`: Request CRC
+`0x01`: Erase flash <br>
+`0x02`: Start write <br>
+`0x03`: Write data <br>
+`0x04`: End write <br>
+`0x05`: Request CRC <br>
 
 ## Requirements
 Linux with SocketCAN
