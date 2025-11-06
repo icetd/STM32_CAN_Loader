@@ -36,9 +36,9 @@ Proceed? (y/n): y
 Protocol
 CAN 2.0B standard frame
 
-Node ID: Bits 10-6
+Node ID: Bits 10-5
 
-Command: Bits 5-0
+Command: Bits 4-0
 
 Commands
 `0x01`: Erase flash
