@@ -5,6 +5,7 @@ set (CMAKE_CXX_STANDARD 11)
 set (CMAKE_BUILD_TYPE Release)
 
 find_library(READLINE_LIBRARY readline)
+find_package(Curses REQUIRED)
 
 file(GLOB_RECURSE SRC_FILES
 	"${CMAKE_CURRENT_LIST_DIR}/src/*.cc"
@@ -32,6 +33,7 @@ add_executable(bootloader_uploader tools/bootloader_uploader.cc)
 target_link_libraries(bootloader_uploader 
     ${PROJECT_NAME}_static 
     pthread 
+	${CURSES_LIBRARIES}
     ${READLINE_LIBRARY}
 )
 
